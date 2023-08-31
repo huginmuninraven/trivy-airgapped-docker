@@ -6,7 +6,7 @@ This Dockerfile bridges the gap.
 
 Instructions are taken from the following link: 
 
-[https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/]
+https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/
 
 
 ## Building Locally  
