@@ -8,14 +8,15 @@ Instructions are taken from the following link:
 
 https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/
 
+## Prerequisites
+
+- [Oras](https://oras.land/docs/installation/)
+
 
 ## Building Locally  
 
 Run these commands locally to build your own Trivy image.  
 
-## Prerequisites
-
-- [Oras](https://oras.land/docs/installation/)
 
 ``` bash
 # Download git repo
