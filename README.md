@@ -1,4 +1,12 @@
-# Docker Build  
+# Trivy Airgapped Docker File
+
+This is a really simple way to build an offline Trivy container that contains the database.   
+The Trivy documentation leaves creating the Dockerfile as an exercise for the reader.   
+This Dockerfile bridges the gap. 
+
+Instructions are taken from the following link: 
+
+[https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/]
 
 
 ## Building Locally  
