@@ -29,6 +29,6 @@ tar xvf javadb.tar.gz -C javadb
 #  Build and tag
 docker build . --tag trivy-airgapped-docker:latest
 
-# Run the docker image and scan another
+# Test the new Docker image by scanning an old Python version
 docker run trivy-airgapped-docker:latest image python:3.4-alpine
 ```
