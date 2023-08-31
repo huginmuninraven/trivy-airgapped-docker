@@ -24,7 +24,6 @@ git clone https://github.com/huginmuninraven/trivy-airgapped-docker.git
 
 cd trivy-airgapped-docker
 
-
 # Downloads databases locally
 oras pull -o . ghcr.io/aquasecurity/trivy-db:2
 mkdir trivydb 
