@@ -11,7 +11,7 @@ https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/
 
 ## Building Locally  
 
-Run these commands locally to build your own Trivy image locally.  
+Run these commands locally to build your own Trivy image.  
 
 ``` bash
 cd trivy
