@@ -10,6 +10,6 @@ ENV TRIVY_SKIP_JAVA_DB_UPDATE=true
 
 # Copies database files into Trivy 
 COPY trivydb/ /root/.cache/trivy/db
-# COPY javadb/ /root/.cache/trivy/java-db  # Too big for web.git.mil!
+COPY javadb/ /root/.cache/trivy/java-db
 
 ENTRYPOINT ["trivy"]
