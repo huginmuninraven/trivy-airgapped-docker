@@ -13,8 +13,16 @@ https://aquasecurity.github.io/trivy/v0.44/docs/advanced/air-gap/
 
 Run these commands locally to build your own Trivy image.  
 
+## Prerequisites
+
+- [Oras](https://oras.land/docs/installation/)
+
 ``` bash
-cd trivy
+# Download git repo
+git clone https://github.com/huginmuninraven/trivy-airgapped-docker.git
+
+cd trivy-airgapped-docker
+
 
 # Downloads databases locally
 oras pull -o . ghcr.io/aquasecurity/trivy-db:2
